@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./assets/frontend/css/main.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-
+{{--    web--}}
     <!--    swiper-->
     <link rel="shortcut icon" href="./assets/frontend/img/logo.png">
     <link rel="stylesheet" href="./assets/frontend/lib/swiper/swiper.min.css">
