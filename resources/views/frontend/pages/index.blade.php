@@ -1108,7 +1108,7 @@
                                 </div>
                                 <div class="hqpay_achievement_content_title">
                                     <p>2. EX TECH</p>
-                                    <p>A/B/C testing <br> Design&Optimize Customer Journey</p>
+                                    <p>A/B/C testing <br> Design & Optimize Customer Journey</p>
                                 </div>
                             </div>
                         </div>
@@ -1132,7 +1132,7 @@
                                 </div>
                                 <div class="hqpay_achievement_content_title">
                                     <p>4. MYRETAIL.ME</p>
-
+                                    <p>Intergrate the data form POS and CRM<br>Multi-channel customer interaction</p>
                                 </div>
                             </div>
                         </div>
@@ -1143,7 +1143,7 @@
                                     <img src="./assets/frontend/img/hub-js_achievement5.png" alt="">
                                 </div>
                                 <div class="hqpay_achievement_content_title">
-                                    <p>5. SaaS-vn. Network</p>
+                                    <p>5. SaaS-vn.Network</p>
                                     <p>Data Integration <br> Design Automation Workflow <br> The 1st SAAS product listing and review in Vietnam</p>
                                 </div>
                             </div>
@@ -1182,6 +1182,17 @@
                                 <div class="hqpay_achievement_content_title">
                                     <p>8. ADSME DIGITAL</p>
                                     <p>Data Syndication & Integration <br> Reporting</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+                            <div class="hqpay_achievement_content_in hub-js_achievement_content_in">
+                                <div>
+                                    <img src="./assets/frontend/img/hub-js_achievement9.png" alt="">
+                                </div>
+                                <div class="hqpay_achievement_content_title">
+                                    <p>9. MINI CRM</p>
+                                    <p>Manage the customer's information, deal and ticket  <br> Lead nurturing automation</p>
                                 </div>
                             </div>
                         </div>
