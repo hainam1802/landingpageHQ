@@ -24,202 +24,12 @@
 <div class="scroll_top">
     <img src="./assets/frontend/img/scroll.png" alt="">
 </div>
-<header>
-    <!--logo và search box-->
-    <div class="heading">
-        <div class="container">
-            <div class="logo">
-                <a href="https://hqgroups.vn/" target="_blank">
-                    <img src="./assets/frontend/img/logo.png" alt="">
-                </a>
 
-            </div>
-            <div style="">
-                <ul class="nav nav_destop">
-                    <li><a href="#traocohoi">Về chúng tôi</a></li>
-                    <li><a href="#tamnhin">Tầm nhìn</a></li>
-                    <li><a href="#sumenh">Sứ mệnh</a></li>
-                    <li><a href="#company">Các thành viên</a></li>
-
-                </ul>
-                <label for="nav_bar_mobile" class="nav_mobile">
-                    <img src="./assets/frontend/img/nav_bar.png" alt="">
-
-                </label>
-                <input type="checkbox" hidden class="nav_bar_mobile" id="nav_bar_mobile" >
-                <label for="nav_bar_mobile" class="nav_bar_mobile_overlay"></label>
-                <div class="nav_bar_form_mobile">
-                    <div class="nav_bar_form_mobile_detail">
-                        <a href="#traocohoi">
-                            Về chúng tôi
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail">
-                        <a href="#tamnhin">
-                            Tầm nhìn
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail">
-                        <a href="#sumenh">
-                            Sứ mệnh
-                        </a>
-                    </div>
-                    <!--                    <div class="nav_bar_form_mobile_detail">-->
-                    <!--                        <a href="">-->
-                    <!--                           Hoạt động gắn kết nội bộ-->
-                    <!--                        </a>-->
-                    <!--                    </div>-->
-                    <!--                    <div class="nav_bar_form_mobile_detail">-->
-                    <!--                        <a href="">-->
-                    <!--                            Văn hóa doanh nghiệp-->
-                    <!--                        </a>-->
-                    <!--                    </div>-->
-                    <div class="nav_bar_form_mobile_detail">
-                        <a href="#company">
-                            Các công ty thành viên
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#ikonic">
-                            <img src="./assets/frontend/img/mobile_company1.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#hubjs">
-                            <img src="./assets/frontend/img/mobile_company2.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#hqpay">
-                            <img src="./assets/frontend/img/mobile_company3.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#hqplay">
-                            <img src="./assets/frontend/img/mobile_company4.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#globalent">
-                            <img src="./assets/frontend/img/mobile_company5.png" alt="">
-                        </a>
-                    </div>
-                    <div class="nav_bar_form_mobile_detail company_mobile">
-                        <a href="#xcrcorp">
-                            <img src="./assets/frontend/img/mobile_company6.png" alt="">
-                        </a>
-                    </div>
-                </div>
-
-
-            </div>
-            <div class="nav_destop_hire">
-                <a href="https://tuyendung.hqgroups.vn/" target="_blank">Xem vị trí tuyển dụng</a>
-            </div>
-        </div>
-    </div>
-    <!--    nav-->
-</header>
-<div class="company_category">
-    <div class="container">
-        <div class="company_category_in">
-            <div class="company_category_img">
-                <a  href="#ikonic"  class="company_ikonic" >
-                    <img src="./assets/frontend/img/company1.png" alt="">
-                </a>
-
-            </div>
-            <div class="company_category_img">
-                <a href="#hubjs" class="company_hubjs">
-                    <img src="./assets/frontend/img/company2.png" alt="">
-                </a>
-
-            </div>
-            <div class="company_category_img">
-                <a href="#hqpay" class="company_hqpay">
-                    <img src="./assets/frontend/img/company3.png" alt="">
-                </a>
-
-            </div>
-            <div class="company_category_img">
-                <a href="#hqplay" class="company_hqplay">
-                    <img src="./assets/frontend/img/company4.png" alt="">
-                </a>
-
-            </div>
-            <div class="company_category_img">
-                <a href="#globalent" class="company_globalent">
-                    <img src="./assets/frontend/img/company5.png" alt="">
-                </a>
-
-            </div>
-            <div class="company_category_img">
-                <a href="#xcrcorp" class="company_xcrcorp">
-                    <img src="./assets/frontend/img/company6.png" alt="">
-                </a>
-
-            </div>
-
-        </div>
-    </div>
-
-</div>
 @include('layouts.includes.header')
 @yield('content')
 @include('layouts.includes.footer')
 
-<!--footer-->
 
-<footer>
-    <div class="end">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <div class="end_logo">
-                        <a href="https://hqgroups.vn/" target="_blank">
-                            <img src="./assets/frontend/img/footer_logo.png" alt="">
-                        </a>
-
-                    </div>
-                    <div class="end_name">
-                        Công ty Cổ phần Tập đoàn HQ
-                    </div>
-                    <div class="end_social">
-                        <a href="https://www.facebook.com/HQGROUPS" target="_blank">
-                            <img src="./assets/frontend/img/footer_fb.png" alt="">
-                        </a>
-                        <a href="mailto:tuyendung@hqgroups.vn" target="_blank">
-                            <img src="./assets/frontend/img/footer_gg.png" alt="">
-                        </a>
-
-
-                    </div>
-                </div>
-
-                <div class="end_line col-12">
-                    <div class="end_line_in"></div>
-                </div>
-                <div class="col-6 col-md-4 end_about">
-                    <p>Về chúng tôi</p>
-                    <ul>
-                        <li><a href="https://hqgroups.vn/gioi-thieu" target="_blank">Giới thiệu</a></li>
-                        <li><a href="https://tuyendung.hqgroups.vn/" target="_blank">Tuyển dụng</a></li>
-                        <li><a href="https://www.facebook.com/HQGroupLife" target="_blank">HQ Group - Life</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-4 end_about">
-                    <p>Liên hệ</p>
-                    <ul>
-                        <li><img src="./assets/frontend/img/end_home.png" alt=""><a href="https://hqgroups.vn/" target="_blank">http://hqgroups.vn/</a></li>
-                        <li><img src="./assets/frontend/img/end_mail.png" alt=""><a href="mailto:tuyendung@hqgroups.vn">tuyendung@hqgroups.vn</a></li>
-                        <li><img src="./assets/frontend/img/end_phone.png" alt=""><a href="tel:(+84) 24 2246 2020">(+84) 24 2246 2020</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-    </div>
-</footer>
 
 <script src="./assets/frontend/lib/jquery.min.js"></script>
 <script src="./assets/frontend/lib/bootstrap/bootstrap.min.js"></script>
@@ -242,7 +52,8 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+            speed: 300,
+            freeMode: true,
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -252,14 +63,11 @@
 
             // watchSlidesProgress: true,
             //
-            lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 6,
-            speed: 200,
+
             spaceBetween: 14,
 
 
@@ -294,10 +102,12 @@
                 // },
                 992: {
                     slidesPerView: 3,
+                    freeMode: true,
                 },
 
 
                 480: {
+                    freeMode: true,
                     slidesPerView: 2,
 
                 }
@@ -322,7 +132,7 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+            slidesPerGroup: 3,
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -333,16 +143,12 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
-            speed: 200,
+            speed: 300,
             spaceBetween: 14,
-
-
             // autoplay: false,
             parallax: true,
             touchMove: true,
@@ -354,11 +160,13 @@
             observeParents: true,
             breakpoints: {
                 992: {
+                    freeMode: true,
                     slidesPerView: 3,
                 },
 
 
                 480: {
+                    freeMode: true,
                     slidesPerView: 2,
 
                 }
@@ -382,7 +190,8 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+
+            slidesPerGroup: 3,
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -393,9 +202,7 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
@@ -433,11 +240,13 @@
                 //     },
                 // },
                 992: {
+                    freeMode: true,
                     slidesPerView: 3,
                 },
 
 
                 480: {
+                    freeMode: true,
                     slidesPerView: 2,
 
                 }
@@ -461,7 +270,7 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -472,15 +281,13 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
             speed: 200,
             spaceBetween: 14,
-
+            slidesPerGroup: 3,
 
             // autoplay: false,
             parallax: true,
@@ -513,11 +320,13 @@
                 // },
                 992: {
                     slidesPerView: 3,
+                    freeMode: true,
                 },
 
 
                 480: {
                     slidesPerView: 2,
+                    freeMode: true,
 
                 }
             }
@@ -540,7 +349,7 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -551,9 +360,7 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
@@ -567,7 +374,7 @@
             freeModeSticky:true,
             grabCursor: true,
             slideToClickedSlide: true,
-
+            slidesPerGroup: 3,
             observer: true,
             observeParents: true,
             breakpoints: {
@@ -592,11 +399,13 @@
                 // },
                 992: {
                     slidesPerView: 3,
+                    freeMode: true,
                 },
 
 
                 480: {
                     slidesPerView: 2,
+                    freeMode: true,
 
                 }
             }
@@ -618,7 +427,7 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -629,9 +438,7 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
@@ -645,18 +452,20 @@
             freeModeSticky:true,
             grabCursor: true,
             slideToClickedSlide: true,
-
+            slidesPerGroup: 3,
             observer: true,
             observeParents: true,
             breakpoints: {
 
                 992: {
                     slidesPerView: 3,
+                    freeMode: true,
                 },
 
 
                 480: {
                     slidesPerView: 2,
+                    freeMode: true,
 
                 }
             }
@@ -678,7 +487,7 @@
                 autoplaySpeed: 5000,
 
             },
-            autoplay: true,
+
             // preloadImages: false,
             updateOnImagesReady: true,
             // lazyLoading: false,
@@ -689,9 +498,7 @@
             // watchSlidesProgress: true,
             //
             lazy: true,
-            lazy: {
-                loadPrevNext: true,
-            },
+
             loop: false,
             centeredSlides: false,
             slidesPerView: 5,
@@ -705,18 +512,20 @@
             freeModeSticky:true,
             grabCursor: true,
             slideToClickedSlide: true,
-
+            slidesPerGroup: 3,
             observer: true,
             observeParents: true,
             breakpoints: {
 
                 992: {
                     slidesPerView: 3,
+                    freeMode: true,
                 },
 
 
                 480: {
                     slidesPerView: 2,
+                    freeMode: true,
 
                 }
             }
