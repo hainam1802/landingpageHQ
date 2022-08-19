@@ -329,7 +329,7 @@
                         <div class="cultural_content_in">
                             <img src="./assets/frontend/img/cultural_3.png" alt="">
                             <div class="cultural_content_title">
-                                {{__(' Phát triển năng lực nhân sự')}}
+                                {{__('Phát triển năng lực nhân sự')}}
 
 
                             </div>

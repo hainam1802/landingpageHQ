@@ -39,7 +39,7 @@
                     </ul>
                 </div>
                 <div class="col-6 col-md-4 end_about">
-                    <p>Liên hệ</p>
+                    <p>{{__('Liên hệ')}}</p>
                     <ul>
                         <li><img src="./assets/frontend/img/end_home.png" alt=""><a href="https://hqgroups.vn/" target="_blank">http://hqgroups.vn/</a></li>
                         <li><img src="./assets/frontend/img/end_mail.png" alt=""><a href="mailto:tuyendung@hqgroups.vn">tuyendung@hqgroups.vn</a></li>
