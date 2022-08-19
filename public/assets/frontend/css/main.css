@@ -1127,6 +1127,68 @@ header .heading .container .nav li a{
 .global_achievement{
     margin-top: 40px;
 }
+.field_content_text{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.4px;
+    color: #1B2432;
+    margin-top: 16px;
+}
+.language img{
+    width: 25px;
+}
+.language a, .language a:focus {
+
+}
+.language ul li a {
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 30px;
+    font-family: nunito,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    white-space: nowrap;
+    transition: .3s;
+
+}
+.language ul li a span{
+    margin-left: 12px;
+
+}
+.language ul li{
+    min-width: 180px;
+}
+
+.language ul li a:hover {
+    text-decoration: none;
+}
+.language ul li a:hover span{
+    color: #1270E4 !important;
+    transition: .2s;
+}
+
+.language ul{
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(127 137 161 / 25%);
+    transition: .2s;
+    border-radius: 4px;
+    list-style: none;
+}
+.language:hover ul{
+    opacity: 1;
+    top: 90%;
+    visibility: visible
+}
 /*<!--hq esport-->*/
 @media only screen  and (max-width: 1024px) {
     .end_about{
@@ -1290,7 +1352,7 @@ header .heading .container .nav li a{
     /*lĩnh vực*/
 
     .field_content div img{
-        height: 80%;
+        width: 40px;
     }
     .field_content{
         margin-top: 20px;
@@ -1298,6 +1360,16 @@ header .heading .container .nav li a{
     .field_content div {
          margin: 8px;
         flex-basis: 25%;
+    }
+    .field_content_text{
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 18px;
+        color: #1B2432;
+        margin-top: 8px;
+    }
+    .field_content .field_content_sport ,.field_content .field_content_invest {
+        flex-basis: 40%;
     }
 
     .field_title{
