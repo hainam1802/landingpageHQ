@@ -25,13 +25,13 @@
                 <div class="nav_bar_form_mobile">
                     <div class="nav_bar_form_mobile_detail">
                         <a href="#traocohoi">
-                            {{__(' Về chúng tôi')}}
+                            {{__('Về chúng tôi')}}
 
                         </a>
                     </div>
                     <div class="nav_bar_form_mobile_detail">
                         <a href="#tamnhin">
-                            {{__('   Tầm nhìn')}}
+                            {{__('Tầm nhìn')}}
 
                         </a>
                     </div>
