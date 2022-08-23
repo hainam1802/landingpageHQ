@@ -94,7 +94,7 @@
                                     <span  class="ml-2">Việt Nam</span>
                                 @endif
                             </a>
-                            <ul class="position-absolute">
+                            <ul class="">
                                 <li>
                                     <a href="{{ route('language','en') }}" class="en">
                                         <img src="./assets/frontend/img/usa.png" alt="">
@@ -110,8 +110,24 @@
                                 </li>
                             </ul>
 
+
                         </div>
                     </div>
+                    <ul class="company_desktop">
+                        <li>
+                            <a href="{{ route('language','en') }}" class="en">
+                                <img src="./assets/frontend/img/usa.png" alt="">
+                                <span>English</span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="{{ route('language','vi') }}" class="vi">
+                                <img src="./assets/frontend/img/vietnam.png" alt="">
+                                <span>Việt Nam</span>
+                            </a>
+                        </li>
+                    </ul>
 
                 </div>
 

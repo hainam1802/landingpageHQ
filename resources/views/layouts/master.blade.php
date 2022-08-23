@@ -625,6 +625,30 @@
             $('body, html').animate({scrollTop: scrollTo-150 +'px' }, 800);
         }
     });
+    $('.nav_bar_form_mobile_detail .dropdown a').click(function(e){
+        e.preventDefault();
+        var target = $($(this).attr('href'));
+        $('.company_category_img a').removeClass('active');
+        $(this).addClass('active');
+        if(target.length){
+            var scrollTo = target.offset().top;
+            $('body, html').animate({scrollTop: scrollTo-150 +'px' }, 800);
+        }
+    });
+
+    if($(window).width() < 992){
+      $('.language').click(function(e){
+        e.preventDefault();
+          e.stopPropagation();
+
+          $('.company_desktop').toggle();
+
+      });
+        $('body').click( function() {
+            $('.company_desktop').fadeOut(100);
+        });
+
+    }
 
     $('.nav_destop a').click(function(e){
         e.preventDefault();

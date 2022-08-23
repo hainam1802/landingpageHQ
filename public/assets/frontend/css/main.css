@@ -1189,6 +1189,13 @@ header .heading .container .nav li a{
     top: 90%;
     visibility: visible
 }
+@media only screen  and (min-width: 992px) {
+    .language:hover ul{
+        opacity: 1;
+        top: 90%;
+        visibility: visible
+    }
+}
 /*<!--hq esport-->*/
 @media only screen  and (max-width: 1024px) {
     .end_about{
@@ -1263,6 +1270,57 @@ header .heading .container .nav li a{
 }
 .global_about_img_mobile img{
     width: 100%;
+}
+
+.language ul {
+    display: block;
+    position: absolute;
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0 0 30px rgb(127 137 161 / 25%);
+    transition: .2s;
+    border-radius: 4px;
+    list-style: none;
+}
+.company_desktop{
+    left: 14px;
+    top: calc(100% + 30px);
+    margin: 0;
+    padding: 10px 0;
+    z-index: 99;
+    display: none;
+
+    background: #fff;
+    box-shadow: 0 0 30px rgb(127 137 161 / 25%);
+    transition: .2s;
+    border-radius: 4px;
+    list-style: none;
+}
+.company_desktopli {
+    min-width: 180px;
+}
+.company_desktop img {
+    width: 25px;
+}
+.company_desktop li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 0 10px 20px;
+    font-family: nunito,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    white-space: nowrap;
+    transition: .3s;
+}
+.company_desktop li a span {
+    margin-left: 12px;
 }
 @media only screen  and (max-width: 992px) {
     .ikonix_partner_img img {
@@ -1777,4 +1835,12 @@ header .heading .container .nav li a{
 .company_mobile{
     border-top: 1px solid #BCBFD6;
     /*border-bottom: 1px solid #BCBFD6;*/
+}
+.nav_bar_form_mobile_detail .dropdown ul{
+    position: absolute;
+}
+@media (max-width: 992px) {
+    .nav_bar_form_mobile_detail .dropdown ul {
+        display: none;
+    }
 }
