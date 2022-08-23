@@ -1023,7 +1023,7 @@
             <img src="./assets/frontend/img/hub-js.png" alt="">
             <div class="hub-js_title_mobile"  style="background:#000 url('./assets/frontend/img/hub-js_about_mobile.png') center no-repeat;    background-size: cover">
                 <p>
-                    {{__('HUB-JS giúp kết nối và phát triển doanh nghiệp <br> trực tuyến tại Việt Nam và Châu Á Thái Bình Dương, tiên phong công nghệ tiếp thị và tùy chỉnh dữ liệu khách hàng')}}
+                    {{__('HUB-JS giúp kết nối và phát triển doanh nghiệp'}} <br> {{__('trực tuyến tại Việt Nam và Châu Á Thái Bình Dương, tiên phong công nghệ tiếp thị và tùy chỉnh dữ liệu khách hàng')}}
                 </p>
 
             </div>
