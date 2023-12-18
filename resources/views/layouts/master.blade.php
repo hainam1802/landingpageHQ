@@ -27,30 +27,8 @@
 </div>
 
 @include('layouts.includes.header')
-<section >
-    <div class="container" style="    text-align: center;    padding: 120px;">
-        <form class="modal-login-form formRegister" id="formLogin" action="{{ url('/ajax/login') }}" method="POST">
-            <input type="hidden" name="_token" value="">
-            <p class="fw-700 fz-24 fz-lg-24 fz-md-18 fz-sm-16 color-pink lh-24">Đăng ký</p>
-            <small class="fz-13 fz-md-12 fz-sm-10 fw-400 c-mb-12">Vui lòng đăng nhập để sử dụng dịch vụ của chúng tôi</small>
-            <p class="modal-login-error text-center registError" id="registError"></p>
-        <span class="input-group w-100 ">
-            <input class="input-primary c-mt-12" style="margin:8px auto" type="text" name="username" placeholder="Nhập tên tài khoản " autocomplete="off" required>
-            <span class="text-error c-mt-4"></span>
-        </span>
-            <div class="w-100 input-group">
-                <div class="password-input-container c-mt-8" style="margin:8px auto" >
-                    <input class="input-primary" type="password" name="password"   placeholder="Nhập mật khẩu của bạn" autocomplete="off" required>
+@yield('content')
 
-                </div>
-                <span class="text-error c-mt-4"></span>
-            </div>
-            <button type="submit" class="btn btn-success">Đăng ký</button>
-        </form>
-    </div>
-
-
-</section>
 @include('layouts.includes.footer')
 
 <script src="./assets/frontend/lib/jquery.min.js"></script>
@@ -729,91 +707,6 @@
 
 
 </script>
-<script>
-    $(document).ready(function () {
-        // Thiết lập CSRF token cho các yêu cầu AJAX
-        // axios.defaults.headers.common['X-CSRF-TOKEN'] = $('meta[name="csrf-token"]').attr('content');
-        //
-        // // Gửi yêu cầu AJAX để lấy CSRF token mới
-        // axios.get('/ajax/csrf/token36')
-        //     .then(function(response) {
-        //         console.log(response.data)
-        //         // Lưu CSRF token mới vào thẻ meta của trang web
-        //         $('meta[name="csrf-token"]').attr('content', response.data);
-        //         $( "input[name*='_token']" ).val(response.data);
-        //         // Sau khi lấy CSRF token mới, bạn có thể gọi các yêu cầu AJAX khác ở đây
-        //     })
-        //     .catch(function(error) {
-        //         // Xử lý lỗi ở đây nếu cần
-        //     });
 
-        // var csrf_token = $('meta[name="csrf-token"]').attr('content');
-        $.ajax({
-            type: "GET",
-            url: '/ajax/csrf/token36',
-            async:true,
-            cache:false,
-            // data: {
-            //     _token:csrf_token,
-            //     jwt:token
-            // },
-            beforeSend: function (xhr) {
-
-            },
-            success: function (response) {
-                $('meta[name="csrf-token"]').attr('content', response);
-                $( "input[name*='_token']" ).val(response);
-                console.log(response)
-            },
-            error: function (data) {
-                // alert('Có lỗi phát sinh, vui lòng liên hệ QTV để kịp thời xử lý(account_info)!')
-                return;
-            },
-            complete: function (data) {
-
-            }
-        });
-    });
-
-
-</script>
-<script>
-    $( document ).ready(function() {
-    $('#formLogin').submit(function (e) {
-        e.preventDefault();
-        var formSubmit = $(this);
-        var url = formSubmit.attr('action');
-        $.ajax({
-            type: "POST",
-            url: url,
-            cache:false,
-            async:false,
-            data: formSubmit.serialize(), // serializes the form's elements.
-            beforeSend: function (xhr) {
-
-            },
-            success: function (data) {
-
-                if(data.status == 1){
-                    alert('THành công')
-
-                }else{
-                    $('.LoginError').html(data.message)
-
-                }
-
-            },
-            error: function (data) {
-                alert('Kết nối với hệ thống thất bại.Xin vui lòng thử lại');
-                btnSubmit.text('Đăng nhập');
-            },
-            complete: function (data) {
-                $('#form-login').trigger("reset");
-                $('.modal-loader-container').css('display','none')
-            }
-        });
-    });
-    });
-</script>
 </body>
 </html>
