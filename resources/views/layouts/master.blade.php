@@ -651,7 +651,7 @@
 
     }
 
-    $('.nav_destop a').click(function(e){
+    $('.nav_destop a.nav_destop_child').click(function(e){
         e.preventDefault();
         var target = $($(this).attr('href'));
         // $('.nav_bar_form_mobile_detail a').removeClass('active');
@@ -661,7 +661,7 @@
             $('body, html').animate({scrollTop: scrollTo-90 +'px' }, 800);
         }
     });
-    $('.nav_bar_form_mobile_detail a').click(function(e){
+    $('.nav_bar_form_mobile_detail a.nav_bar_form_mobile_child').click(function(e){
         e.preventDefault();
         var target = $($(this).attr('href'));
         // $('.nav_bar_form_mobile_detail a').removeClass('active');

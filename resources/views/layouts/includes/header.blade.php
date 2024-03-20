@@ -10,12 +10,13 @@
             </div>
             <div style="">
                 <ul class="nav nav_destop">
-                    <li><a href="#traocohoi">{{__('Về chúng tôi')}}</a></li>
-                    <li><a href="#tamnhin">{{__('Tầm nhìn')}}</a></li>
-                    <li><a href="#sumenh">{{__('Sứ mệnh')}}</a></li>
-                    <li><a href="#company">{{__('Các thành viên')}}</a></li>
-
+                    <li><a href="#traocohoi" class="nav_destop_child">{{__('Về chúng tôi')}}</a></li>
+                    <li><a href="#tamnhin" class="nav_destop_child">{{__('Tầm nhìn')}}</a></li>
+                    <li><a href="#sumenh" class="nav_destop_child">{{__('Sứ mệnh')}}</a></li>
+                    <li><a href="#company" class="nav_destop_child">{{__('Các thành viên')}}</a></li>
+                    <li><a href="https://tuyendung.hqgroups.vn/" target="_blank">{{__('Tuyển dụng')}}</a></li>
                 </ul>
+
                 <label for="nav_bar_mobile" class="nav_mobile">
                     <img src="./assets/frontend/img/nav_bar.png" alt="">
 
@@ -24,27 +25,32 @@
                 <label for="nav_bar_mobile" class="nav_bar_mobile_overlay"></label>
                 <div class="nav_bar_form_mobile">
                     <div class="nav_bar_form_mobile_detail">
-                        <a href="#traocohoi">
+                        <a href="#traocohoi" class="nav_bar_form_mobile_child">
                             {{__('Về chúng tôi')}}
 
                         </a>
                     </div>
                     <div class="nav_bar_form_mobile_detail">
-                        <a href="#tamnhin">
+                        <a href="#tamnhin" class="nav_bar_form_mobile_child">
                             {{__('Tầm nhìn')}}
 
                         </a>
                     </div>
                     <div class="nav_bar_form_mobile_detail">
-                        <a href="#sumenh">
+                        <a href="#sumenh" class="nav_bar_form_mobile_child">
                             {{__('Sứ mệnh')}}
                         </a>
                     </div>
 
                     <div class="nav_bar_form_mobile_detail">
-                        <a href="#company">
+                        <a href="#company" class="nav_bar_form_mobile_child">
                             {{__('Công ty thành viên')}}
                             {{--                            Các công ty thành viên--}}
+                        </a>
+                    </div>
+                    <div class="nav_bar_form_mobile_detail">
+                        <a href="https://tuyendung.hqgroups.vn/" target="_blank">
+                            {{__('Tuyển dụng')}}
                         </a>
                     </div>
                     <div class="nav_bar_form_mobile_detail company_mobile">
