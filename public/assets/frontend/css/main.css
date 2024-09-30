@@ -502,7 +502,7 @@ header .heading .container .nav li a{
     transform: rotateY(360deg);
 }
 .activity_content_mobile{
-    display: none;
+    display: none !important;
 }
 /*.member_company_content_out {*/
 /*    position: relative;*/
@@ -1844,3 +1844,366 @@ header .heading .container .nav li a{
         display: none;
     }
 }
+
+/* modal */
+.modal-header .btn-close {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-image: url(../img/svg/close-modal.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    top: 50%;
+    right: 14px;
+    width: 24px;
+    height: 24px;
+    transform: translateY(-50%);
+    opacity: 1;
+    outline: none;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.modal-header {
+    position: relative;
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.btn-save {
+    color: #fff;
+    background-color: #1270e4;
+    border-color: #1270e4;
+}
+
+.btn-save:hover {
+    color: #fff;
+    background-color: #0B2FA6;
+    border-color: #0B2FA6;
+}
+
+.btn-cancel {
+    color: #1270e4;
+    background-color: #fff;
+    border-color: #1270e4;
+}
+
+.btn-cancel:hover{
+    background-color: #0B2FA6;
+    color: #fff;
+}
+
+.q-card>div:not(:last-child), .q-card>img:not(:last-child) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.q-card>div:not(:first-child), .q-card>img:not(:first-child) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.q-card>div {
+    border-left: 0;
+    border-right: 0;
+    box-shadow: none;
+}
+
+@media (min-width: 1024px) {
+    .q-px-md-lg {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .q-pb-md-lg {
+        padding-bottom: 24px;
+    }
+}
+
+.scroll, .scroll-x, .scroll-y {
+    -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+}
+
+.scroll {
+    overflow: auto;
+}
+
+#modalLanguage {
+    padding-right: unset !important;
+}
+
+.g-btn-outlined.text-secondary .q-btn__wrapper:before {
+    background-color: #f7f7f9
+}
+
+.text-secondary {
+    color: #777!important;
+    color: var(--q-color-secondary)!important
+}
+
+.q-avatar {
+    position: relative;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 48px;
+    height: 1em;
+    width: 1em
+}
+
+.q-avatar__content {
+    font-size: 0.5em;
+    line-height: 0.5em
+}
+
+.q-avatar__content,.q-avatar img:not(.q-icon) {
+    border-radius: inherit;
+    height: inherit;
+    width: inherit
+}
+
+.q-avatar--square {
+    border-radius: 0
+}
+
+.q-banner__avatar>.q-avatar {
+    font-size: 46px
+}
+
+.q-banner--dense .q-banner__avatar>.q-avatar,.q-banner--dense .q-banner__avatar>.q-icon {
+    font-size: 28px
+}
+
+.q-chip .q-avatar {
+    font-size: 2em;
+    margin-left: -0.45em;
+    margin-right: 0.2em;
+    border-radius: 16px
+}
+
+.q-chip--selected .q-avatar {
+    display: none
+}
+
+.q-chip--dense .q-avatar {
+    font-size: 1.5em;
+    margin-left: -0.27em;
+    margin-right: 0.1em;
+    border-radius: 12px
+}
+
+.q-chip--square .q-avatar {
+    border-radius: 9px 0 0 9px
+}
+
+.q-field__marginal .q-avatar {
+    font-size: 32px
+}
+
+.q-field--dense .q-field__marginal .q-avatar {
+    font-size: 24px
+}
+
+.q-item__section--side>.q-avatar {
+    font-size: 40px
+}
+
+.q-toolbar .q-avatar {
+    font-size: 38px
+}
+
+.q-tree__avatar,.q-tree__node-header-content .q-avatar {
+    font-size: 28px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px
+}
+
+.g-avatar-outlined {
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.12)
+}
+
+.g-avatar-outlined img {
+    border-radius: 50%
+}
+
+.q-avatar__content {
+    font-size: 0.5em;
+    line-height: 0.5em
+}
+
+.flex-center,.justify-center {
+    justify-content: center
+}
+
+.flex-center,.items-center {
+    align-items: center
+}
+
+.overflow-hidden {
+    overflow: hidden!important
+}
+
+.q-ml-sm {
+    margin-left: 8px
+}
+
+.text-weight-medium {
+    font-weight: 500
+}
+
+.q-mt-sm {
+    margin-top: 8px
+}
+
+.text-body1,.text-body2 {
+    line-height: 1rem
+}
+
+.text-body2 {
+    font-size: 0.75rem;
+    font-weight: 400
+}
+
+.text-secondary {
+    color: #777!important;
+    color: var(--q-color-secondary)!important
+}
+
+.g-btn-outlined.text-secondary .q-btn__wrapper:before {
+    background-color: #f7f7f9
+}
+
+.q-btn-group--outline>.q-separator {
+    display: none
+}
+
+.q-bottom-sheet--grid .q-separator {
+    margin: 12px 0
+}
+
+.q-expansion-item--popup>.q-expansion-item__container>.q-separator {
+    display: none
+}
+
+.q-separator {
+    border: 0;
+    background: rgba(0,0,0,0.12);
+    margin: 0;
+    transition: background 0.3s,opacity 0.3s;
+    flex-shrink: 0
+}
+
+.q-table__grid-item-card .q-separator {
+    margin: 12px 0
+}
+
+.q-separator {
+    background: #e9e9ee
+}
+
+.q-my-md {
+    margin-bottom: 16px
+}
+
+.q-separator--horizontal {
+    display: block;
+    height: 1px
+}
+
+.q-gutter-sm,.q-gutter-x-sm {
+    margin-left: -8px
+}
+
+.q-gutter-sm>*,.q-gutter-x-sm>* {
+    margin-left: 8px
+}
+
+.q-gutter-sm,.q-gutter-y-sm {
+    margin-top: -8px
+}
+
+.q-gutter-sm>*,.q-gutter-y-sm>* {
+    margin-top: 8px
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column, .flex, .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.q-radio {
+    vertical-align: middle
+}
+
+.q-radio.disabled {
+    opacity: 0.75!important
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.country {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.country-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.info {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.language-options label {
+    font-size: 14px;
+    margin: unset;
+}
+
+.language-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.language-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+

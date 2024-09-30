@@ -150,6 +150,14 @@
     "Giới thiệu": "Introduction",
     "Tuyển dụng": "Recruitment",
     "HQ Group - Life": "HQ Group - Life",
-    "Liên hệ": "Contact"
-
+    "Liên hệ": "Contact",
+    "Tiếng Việt" : "Vietnamese",
+    "Cài đặt vị trí" : "Locazilation setting",
+    "Ngôn ngữ" : "Language",
+    "Tiếng Anh": "English",
+    "Huỷ" : "Cancel",
+    "Lưu" : "Save",
+    "Quốc gia / Khu vực" : "Country / Region",
+    "Để thay đổi quốc gia, bạn cần có số điện thoại di động hợp lệ ở quốc gia mới." : "To change the country, you need a valid mobile number for the new country.",
+    "Việt Nam" : "Viet Nam"
 }
